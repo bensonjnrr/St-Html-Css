@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+:root{
+    --main-color: #daeb5f;
+    --primary-color: #312e3e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px 30px;
+    background: var(--main-color);
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    background: #100e0f;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+
+li{
+    display: inline;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+.header{
+    background: url(images/car.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins", serif;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+
+}
+
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+  
+}
+
+.sub-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(60px);
+}
+
+#our-cars{
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(images/car\ key.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title-style{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: "poppins" sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);
+}
+.line{
+    width: 100px;
+    height: 1px;
+    border-radius: 50PX;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p{
+    max-width: 500px;
+    color: #ffffff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.car-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+
+.img2{
+    height: 400px;
+    width: 400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    font-family: "poppins" sans-serif;
+
+}
+
+.car-section{
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+/* Available cars */
+
+.avcars{
+    margin-top: 5rem;
+}
+
+.title-three{
+    font-size: 4rem;
+    margin: 10rem 0 10rem 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid var(--main-color);
+    height: 400px;
+    width: 300px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+
+.card-img{
+    
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -50px;
+
+
+}
+
+
+.img-one{
+    background: url(images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+}
+
+.img-two{
+    background: url(images/iimg2.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+}
+.img-three{
+    background: url(images/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--main-color);
+    border-radius: 40px;
+}
+
+.card-title{
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.card-items{
+    margin: 20px 0;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+
+
